@@ -2,6 +2,18 @@
 Feedgenerator
 =============
 
+------------
+
+**NOTE**: This is a fork of `python-feedgen
+<https://github.com/lkiesow/python-feedgen>`_, as the original version is no
+longer maintained.
+
+It is not going to implement many major features, but it implements fixes and
+improvements over the original version, it's compatible with newer versions of 
+its dependencies and it is fully compatible with the original version.
+
+------------
+
 This module can be used to generate web feeds in both ATOM and RSS format. It
 has support for extensions. Included is for example an extension to produce
 Podcasts.
@@ -21,19 +33,11 @@ More details about the project:
 Installation
 ------------
 
-**Prebuild packages**
-
-If your distribution includes this project as package, like Fedora Linux does,
-you can simply use your package manager to install the package. For example::
-
-    $ dnf install python3-feedgen
-
-
 **Using pip**
 
 You can also use pip to install the feedgen module. Simply run::
 
-    $ pip install feedgen
+    $ pip install feedgen2
 
 
 -------------

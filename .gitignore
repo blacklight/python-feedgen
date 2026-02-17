@@ -17,3 +17,5 @@ tmp_Rssfeed.xml
 *.egg-info/
 build/
 dist/
+_build/
+/docs/

@@ -15,3 +15,5 @@ tmp_Rssfeed.xml
 # testing artifacts
 .coverage
 *.egg-info/
+build/
+dist/

@@ -1,5 +1,5 @@
-%global pypi_name feedgen
-%global pypi_version 1.0.0
+%global pypi_name feedgen2
+%global pypi_version 2.0.0
 
 Name:           python-%{pypi_name}
 Version:        %{pypi_version}
@@ -7,8 +7,7 @@ Release:        1%{?dist}
 Summary:        Feed Generator (ATOM, RSS, Podcasts)
 
 License:        BSD or LGPLv3
-URL:            http://lkiesow.github.io/python-feedgen
-#Source0:        https://github.com/lkiesow/%{name}/archive/v%{version}.tar.gz
+URL:            https://github.com/blacklight/python-feedgen
 Source0:        %{pypi_source}
 BuildArch:      noarch
 
@@ -56,6 +55,11 @@ rm -rf %{pypi_name}.egg-info
 %{python3_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
 
 %changelog
+* Tue Feb 17 2026 Fabio Manganiello <fabio@manganiello.tech> - 2.0.0-1
+- Update to 2.0.0
+- Fork from https://github.com/lkiesow/python-feedgen
+- Applied https://github.com/lkiesow/python-feedgen/pull/139
+
 * Mon Dec 25 2023 Lars Kiesow <lkiesow@uos.de> - 1.0.0-1
 - Update to 1.0.0
 - Removing support for Python 2

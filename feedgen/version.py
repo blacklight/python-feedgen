@@ -11,7 +11,7 @@ feedgen.version
 """
 
 "Version of feedgen2 represented as tuple"
-version = (2, 0, 0)
+version = (2, 0, 1)
 
 
 "Version of feedgen2 represented as string"

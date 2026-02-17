@@ -1,5 +1,5 @@
 %global pypi_name feedgen2
-%global pypi_version 2.0.0
+%global pypi_version 2.0.1
 
 Name:           python-%{pypi_name}
 Version:        %{pypi_version}
@@ -55,6 +55,10 @@ rm -rf %{pypi_name}.egg-info
 %{python3_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
 
 %changelog
+* Tue Feb 17 2026 Fabio Manganiello <fabio@manganiello.tech> - 2.0.1-1
+- Update to 2.0.1
+- Updated README
+
 * Tue Feb 17 2026 Fabio Manganiello <fabio@manganiello.tech> - 2.0.0-1
 - Update to 2.0.0
 - Fork from https://github.com/lkiesow/python-feedgen

@@ -59,6 +59,7 @@ rm -rf %{pypi_name}.egg-info
 - Update to 2.0.0
 - Fork from https://github.com/lkiesow/python-feedgen
 - Applied https://github.com/lkiesow/python-feedgen/pull/139
+- Applied https://github.com/lkiesow/python-feedgen/pull/123
 
 * Mon Dec 25 2023 Lars Kiesow <lkiesow@uos.de> - 1.0.0-1
 - Update to 1.0.0
